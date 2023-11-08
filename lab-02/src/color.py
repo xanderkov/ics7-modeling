@@ -1,0 +1,5 @@
+PURPLE_SUPER_DARK  = "#29293d"
+PURPLE_DARK        = "#073d91"
+PURPLE             = "#4287f5"
+PURPLE_LIGHT       = "#6ca1f5"
+PURPLE_SUPER_LIGHT = "#f0f0f5"

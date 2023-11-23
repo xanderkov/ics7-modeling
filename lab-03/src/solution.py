@@ -19,10 +19,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             a, b = interval
             alg_generator = AlgorithmGenerator(a, b)
             tab_generator = TableGenerator(a, b)
-            tab_generator.fill_file_by_random(f'data/random_{i}.txt')
+            tab_generator.fill_file_by_random(f'/Users/akovel/Documents/bmstu/ics7-modeling/lab-03/src/data/random_{i}.txt')
 
             alg_numbers = alg_generator.get_random_numbers(100)
-            tab_numbers = tab_generator.get_random_numbers(f'data/random_{i}.txt', 100)
+            tab_numbers = tab_generator.get_random_numbers(f'/Users/akovel/Documents/bmstu/ics7-modeling/lab-03/src/data/random_{i}.txt', 100)
 
             for j in range(10):
                 self.__getattribute__(f'alg_{i + 1}_{j + 1}').setText(str(alg_numbers[j]))

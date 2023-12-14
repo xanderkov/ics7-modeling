@@ -300,7 +300,7 @@ class Block:
 
 root = tk.Tk()
 root['bg'] = COLOR
-root.geometry('800x510')
+root.geometry('1000x550')
 # root.columnconfigure(0, weight=1)
 # root.rowconfigure(0, weight=1)
 
